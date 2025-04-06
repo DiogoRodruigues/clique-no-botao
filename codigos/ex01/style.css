@@ -1,0 +1,33 @@
+.bttn{
+	box-shadow: 11px 10px 27px -1px #323b2f;
+	background:linear-gradient(to bottom, #3e3cba 5%, #537cdb 100%);
+	background-color:#3e3cba;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#faf5f8;
+	font-family:Impact;
+	font-size:28px;
+	font-style:italic;
+	padding:31px 76px;
+	text-decoration:none;
+	text-shadow:3px 2px 4px #0a0a0a;
+}
+
+.bttn:hover{
+	background:linear-gradient(to bottom, #537cdb 5%, #211f61 100%);
+	background-color:#537cdb;
+}
+
+.bttn:active{
+	position:relative;
+	top:1px;
+}
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.23);
+}
